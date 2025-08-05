@@ -30,7 +30,7 @@ def main():
     rfid=st.selectbox("Enter the RFID configuration settings",["Config 1 (4 Sensors)","Config 2 (3 Sensors)"])
     rfid_e= (lambda x: 3 if x=="Config 2 (3 Sensors)" else 4)(rfid)
 
-    ant_id=st.dropbox("Select the Antenna ID ",[1,2,3,4])
+    ant_id=st.selectbox("Select the Antenna ID ",[1,2,3,4])
     rssi=st.text_input("Enter the Recieved signal strength indicator (RSSI) ")
     accv=st.text_input("Enter the Vertical Acceleration from the Sensor")
     accf=st.text_input("Enter the frontal Acceleration from the Sensor")
@@ -45,4 +45,5 @@ def main():
 
 if __name__=="__main__":
     main()
+
 
