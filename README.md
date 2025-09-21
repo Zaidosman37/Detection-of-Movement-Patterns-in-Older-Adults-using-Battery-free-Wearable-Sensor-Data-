@@ -1,15 +1,12 @@
 Website--> https://archive.ics.uci.edu/dataset/427/activity+recognition+with+healthy+older+people+using+a+batteryless+wearable+sensor
 
-This project was designed to predict the Detection movement of the senior citizens using Sensors data's which helps us predict what is the activity citizen is doing right now.
+This project was designed to predict the movement and activities of senior citizens using sensor data, enabling real-time monitoring of their current activities. 
 
-Data is present in four different parts which are distinguished based on rooms, groups etc.
+The data was originally stored in four separate datasets, categorized by rooms, groups, and other attributes, which were merged to facilitate comprehensive data analysis.
 
-We merged these four datasets together to support the data analysis procedure.
+The workflow included data merging, exploratory data analysis (EDA), data preprocessing, predictive modeling, and deployment. 
 
-The steps that were performed are : - Data Merging, Exploratory Data Analysis, Data Preparation, Predictive Modeling, Deployment Procedure.
-
-The application is being deployed using Streamlit.
+Machine learning models were trained to accurately detect activity patterns, and the application was deployed using Streamlit, providing a user-friendly interface for real-time monitoring and insights.
 
 Thank you,
-Zaid.
-
+Zaid
