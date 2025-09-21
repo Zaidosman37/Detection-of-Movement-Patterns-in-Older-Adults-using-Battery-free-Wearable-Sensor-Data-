@@ -8,4 +8,4 @@ We merged these four datasets together to support the data analysis procedure.
 
 The steps that were performed are : - Data Merging, Exploratory Data Analysis, Data Preparation, Predictive Modeling, Deployment Procedure.
 
-Deplyed Application Link --> https://qcdnv53nehkjbocp4w3ryz.streamlit.app/
+
